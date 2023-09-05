@@ -1,0 +1,11 @@
+{
+  "\\$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "description": "Mixin schema for strike price options.",
+  "properties": {
+    "strikeprice": {
+      "type": ["number", "null"],
+      "description": "Strike price."
+    }
+  }
+}
