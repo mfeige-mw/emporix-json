@@ -1,11 +1,11 @@
 {
-  "\\$schema": "http://json-schema.org/draft-04/schema#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
-  "description": "Mixin schema for configurable options.",
+  "description": "Schema for mixins for custom attribute configurable at products.",
   "properties": {
     "configurable": {
       "type": ["boolean", "null"],
-      "description": "Configurable."
+      "default": false
     }
   }
 }
