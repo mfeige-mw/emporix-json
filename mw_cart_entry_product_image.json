@@ -1,11 +1,11 @@
 {
   "\\$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
-  "description": "Mixin schema for strike price options.",
+  "description": "Mixin schema for product image URL for cart entry.",
   "properties": {
-    "strikeprice": {
-      "type": ["number", "null"],
-      "description": "Strike price."
+    "imageURL": {
+      "type": ["string", "null"],
+      "description": "Product image URL"
     }
   }
 }
