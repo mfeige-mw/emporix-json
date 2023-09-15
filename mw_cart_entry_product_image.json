@@ -1,11 +1,15 @@
 {
   "\\$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
-  "description": "Mixin schema for product image URL for cart entry.",
+  "description": "Mixin schema for product properties for cart entry.",
   "properties": {
     "imageURL": {
       "type": ["string", "null"],
       "description": "Product image URL"
+    },
+    "name": {
+      "type": ["string", "null"],
+      "description": "Product name"
     }
   }
 }
